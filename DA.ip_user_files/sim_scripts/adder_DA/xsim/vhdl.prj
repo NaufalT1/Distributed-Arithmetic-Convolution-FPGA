@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../../DA.srcs/sources_1/ip/adder_DA/sim/adder_DA.vhd" \
+
+nosort

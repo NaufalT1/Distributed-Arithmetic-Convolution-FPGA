@@ -1,0 +1,127 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1.1 (win64) Build 2960000 Wed Aug  5 22:57:20 MDT 2020
+| Date         : Fri May 21 00:54:16 2021
+| Host         : KURO-PC running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file TOP_LVL_CUST_control_sets_placed.rpt
+| Design       : TOP_LVL_CUST
+| Device       : xc7a100t
+-----------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    49 |
+|    Minimum number of control sets                        |    49 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   162 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    49 |
+| >= 0 to < 4        |    17 |
+| >= 4 to < 6        |     2 |
+| >= 6 to < 8        |     1 |
+| >= 8 to < 10       |    19 |
+| >= 10 to < 12      |     1 |
+| >= 12 to < 14      |     1 |
+| >= 14 to < 16      |     1 |
+| >= 16              |     7 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             114 |           48 |
+| No           | No                    | Yes                    |             111 |           64 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |             222 |           61 |
+| Yes          | No                    | Yes                    |             154 |           42 |
+| Yes          | Yes                   | No                     |              93 |           31 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++--------------------------------------------+----------------------------------------------------+--------------------------------------------+------------------+----------------+--------------+
+|                Clock Signal                |                    Enable Signal                   |              Set/Reset Signal              | Slice Load Count | Bel Load Count | Bels / Slice |
++--------------------------------------------+----------------------------------------------------+--------------------------------------------+------------------+----------------+--------------+
+|  Clk_IBUF_BUFG                             | UART_Transmite/done0                               |                                            |                1 |              1 |         1.00 |
+|  Clk_IBUF_BUFG                             | UART_Recieve/data[4]_i_1_n_0                       |                                            |                1 |              1 |         1.00 |
+|  Clk_IBUF_BUFG                             | UART_Recieve/data[1]_i_1_n_0                       |                                            |                1 |              1 |         1.00 |
+|  Clk_IBUF_BUFG                             | UART_Recieve/data[0]_i_1_n_0                       |                                            |                1 |              1 |         1.00 |
+|  Clk_IBUF_BUFG                             | UART_Recieve/data[3]_i_1_n_0                       |                                            |                1 |              1 |         1.00 |
+|  Unit_Data_Path/Unit_Conv/Output_reg[0]/G0 |                                                    |                                            |                1 |              1 |         1.00 |
+|  Clk_IBUF_BUFG                             | UART_Recieve/data[5]_i_1_n_0                       |                                            |                1 |              1 |         1.00 |
+|  Clk_IBUF_BUFG                             | UART_Recieve/data[6]_i_1_n_0                       |                                            |                1 |              1 |         1.00 |
+|  Clk_IBUF_BUFG                             | UART_Recieve/data[7]_i_1_n_0                       |                                            |                1 |              1 |         1.00 |
+|  Clk_IBUF_BUFG                             | UART_Recieve/data[2]_i_1_n_0                       |                                            |                1 |              1 |         1.00 |
+|  Clk_IBUF_BUFG                             | UART_Transmite/p_0_in                              |                                            |                1 |              1 |         1.00 |
+|  Unit_Data_Path/Unit_Conv/Output_reg[2]/G0 |                                                    |                                            |                1 |              1 |         1.00 |
+|  Unit_Data_Path/Unit_Conv/Output_reg[1]/G0 |                                                    |                                            |                1 |              1 |         1.00 |
+|  Unit_Data_Path/Unit_Conv/Output_reg[3]/G0 |                                                    |                                            |                1 |              1 |         1.00 |
+|  Unit_Data_Path/Unit_Conv/Output_reg[5]/G0 |                                                    |                                            |                1 |              1 |         1.00 |
+|  Unit_Data_Path/Unit_Conv/Output_reg[6]/G0 |                                                    |                                            |                1 |              1 |         1.00 |
+|  Unit_Data_Path/Unit_Conv/Output_reg[4]/G0 |                                                    |                                            |                1 |              1 |         1.00 |
+|  Clk_IBUF_BUFG                             | Unit_Data_Path/unit_Buff_Masukan/i0                | reset_IBUF                                 |                2 |              4 |         2.00 |
+|  Clk_IBUF_BUFG                             | Unit_Data_Path/unit_buff_bobot/j0                  | reset_IBUF                                 |                1 |              4 |         4.00 |
+|  Clk_IBUF_BUFG                             | UART_Transmite/data0                               |                                            |                1 |              7 |         7.00 |
+|  Clk_IBUF_BUFG                             | Unit_Data_Path/unit_Buff_Masukan/Masukan_reg[1]0   | reset_IBUF                                 |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG                             | Unit_Data_Path/unit_Buff_Masukan/Masukan_reg[7]0   | reset_IBUF                                 |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG                             | Unit_Data_Path/unit_Buff_Masukan/Masukan_reg[5]0   | reset_IBUF                                 |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG                             | Unit_Data_Path/unit_Buff_Masukan/Masukan_reg[6]0   | reset_IBUF                                 |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG                             | Unit_Data_Path/unit_buff_bobot/Bobot_reg[6]0       | reset_IBUF                                 |                3 |              8 |         2.67 |
+|  Clk_IBUF_BUFG                             | Unit_Data_Path/unit_Buff_Masukan/Masukan_reg[2]0   | reset_IBUF                                 |                3 |              8 |         2.67 |
+|  Clk_IBUF_BUFG                             | Unit_Data_Path/unit_Buff_Masukan/Masukan_reg[0]0   | reset_IBUF                                 |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG                             | Unit_Data_Path/unit_Buff_Masukan/Masukan_reg[4]0   | reset_IBUF                                 |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG                             | Unit_Data_Path/unit_buff_bobot/Bobot_reg[5]0       | reset_IBUF                                 |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG                             | Unit_Data_Path/unit_buff_bobot/Bobot_reg[3]0       | reset_IBUF                                 |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG                             | Unit_Data_Path/unit_buff_bobot/Bobot_reg[1]0       | reset_IBUF                                 |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG                             | Unit_Data_Path/unit_buff_bobot/Bobot_reg[0]0       | reset_IBUF                                 |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG                             | Unit_Data_Path/unit_buff_bobot/Bobot_reg[4]0       | reset_IBUF                                 |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG                             | Unit_Data_Path/unit_buff_bobot/Bobot_reg[7]0       | reset_IBUF                                 |                3 |              8 |         2.67 |
+|  Clk_IBUF_BUFG                             | Unit_Data_Path/unit_buff_bobot/Bobot_reg[2]0       | reset_IBUF                                 |                2 |              8 |         4.00 |
+|  Clk_IBUF_BUFG                             | Unit_Data_Path/unit_Buff_Masukan/Masukan_reg[3]0   | reset_IBUF                                 |                1 |              8 |         8.00 |
+|  Clk_IBUF_BUFG                             |                                                    | reset_IBUF                                 |                3 |              9 |         3.00 |
+|  Clk_IBUF_BUFG                             | Unit_Data_Path/unit_Buff_Masukan/Input_cmplt01_out | reset_IBUF                                 |                5 |              9 |         1.80 |
+|  Clk_IBUF_BUFG                             | Unit_Data_Path/unit_buff_bobot/Bobot_cmplt01_out   | reset_IBUF                                 |                3 |              9 |         3.00 |
+|  Clk_IBUF_BUFG                             |                                                    |                                            |                7 |             11 |         1.57 |
+|  Clk_IBUF_BUFG                             | UART_Recieve/clkCount0                             |                                            |                5 |             13 |         2.60 |
+|  Clk_IBUF_BUFG                             | UART_Transmite/p_0_in                              | UART_Transmite/clkCount[13]_i_1__0_n_0     |                5 |             14 |         2.80 |
+|  Clk_IBUF_BUFG                             | Unit_Data_Path/Unit_Conv/s_Cnt_reg0                | Unit_Data_Path/Unit_Conv/s_Cnt[31]_i_1_n_0 |                8 |             31 |         3.88 |
+|  Clk_IBUF_BUFG                             | Unit_Control_Unit/B_DA_reg[0]0                     | Unit_Data_Path/Unit_Conv/O_reg[6]0         |               18 |             48 |         2.67 |
+|  Clk_IBUF_BUFG                             | Unit_Control_Unit/B_DA_reg[0]0                     |                                            |               11 |             48 |         4.36 |
+|  Clk_IBUF_BUFG                             | Unit_Data_Path/Unit_Conv/O_reg[6]0                 |                                            |                9 |             48 |         5.33 |
+|  Unit_Conv/G_Conv[5].DAI/eqOp              |                                                    |                                            |               34 |             96 |         2.82 |
+|  Clk_IBUF_BUFG                             | Unit_Data_Path/Unit_Conv/O_reg[0]0                 |                                            |               25 |             96 |         3.84 |
+|  Clk_IBUF_BUFG                             |                                                    | Unit_Data_Path/Unit_Conv/res_conv_reg_n_0  |               61 |            102 |         1.67 |
++--------------------------------------------+----------------------------------------------------+--------------------------------------------+------------------+----------------+--------------+
+
+

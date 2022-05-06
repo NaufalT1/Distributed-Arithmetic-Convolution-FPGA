@@ -1,0 +1,561 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1.1 (win64) Build 2960000 Wed Aug  5 22:57:20 MDT 2020
+| Date         : Fri May 21 00:54:58 2021
+| Host         : KURO-PC running 64-bit major release  (build 9200)
+| Command      : report_methodology -file TOP_LVL_CUST_methodology_drc_routed.rpt -pb TOP_LVL_CUST_methodology_drc_routed.pb -rpx TOP_LVL_CUST_methodology_drc_routed.rpx
+| Design       : TOP_LVL_CUST
+| Device       : xc7a100tcsg324-1
+| Speed File   : -1
+| Design State : Fully Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 105
++-----------+----------+-------------------------------+------------+
+| Rule      | Severity | Description                   | Violations |
++-----------+----------+-------------------------------+------------+
+| TIMING-18 | Warning  | Missing input or output delay | 2          |
+| TIMING-20 | Warning  | Non-clocked latch             | 103        |
++-----------+----------+-------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on reset relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#2 Warning
+Missing input or output delay  
+An input delay is missing on rx_line relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-20#1 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[0].DAI/Output_buff_reg[0] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[0].DAI/Output_buff_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#2 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[0].DAI/Output_buff_reg[10] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[0].DAI/Output_buff_reg[10]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#3 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[0].DAI/Output_buff_reg[11] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[0].DAI/Output_buff_reg[11]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#4 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[0].DAI/Output_buff_reg[12] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[0].DAI/Output_buff_reg[12]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#5 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[0].DAI/Output_buff_reg[13] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[0].DAI/Output_buff_reg[13]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#6 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[0].DAI/Output_buff_reg[14] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[0].DAI/Output_buff_reg[14]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#7 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[0].DAI/Output_buff_reg[15] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[0].DAI/Output_buff_reg[15]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#8 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[0].DAI/Output_buff_reg[1] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[0].DAI/Output_buff_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#9 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[0].DAI/Output_buff_reg[2] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[0].DAI/Output_buff_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#10 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[0].DAI/Output_buff_reg[3] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[0].DAI/Output_buff_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#11 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[0].DAI/Output_buff_reg[4] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[0].DAI/Output_buff_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#12 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[0].DAI/Output_buff_reg[5] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[0].DAI/Output_buff_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#13 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[0].DAI/Output_buff_reg[6] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[0].DAI/Output_buff_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#14 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[0].DAI/Output_buff_reg[7] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[0].DAI/Output_buff_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#15 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[0].DAI/Output_buff_reg[8] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[0].DAI/Output_buff_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#16 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[0].DAI/Output_buff_reg[9] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[0].DAI/Output_buff_reg[9]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#17 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[1].DAI/Output_buff_reg[0] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[1].DAI/Output_buff_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#18 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[1].DAI/Output_buff_reg[10] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[1].DAI/Output_buff_reg[10]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#19 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[1].DAI/Output_buff_reg[11] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[1].DAI/Output_buff_reg[11]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#20 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[1].DAI/Output_buff_reg[12] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[1].DAI/Output_buff_reg[12]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#21 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[1].DAI/Output_buff_reg[13] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[1].DAI/Output_buff_reg[13]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#22 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[1].DAI/Output_buff_reg[14] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[1].DAI/Output_buff_reg[14]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#23 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[1].DAI/Output_buff_reg[15] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[1].DAI/Output_buff_reg[15]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#24 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[1].DAI/Output_buff_reg[1] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[1].DAI/Output_buff_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#25 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[1].DAI/Output_buff_reg[2] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[1].DAI/Output_buff_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#26 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[1].DAI/Output_buff_reg[3] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[1].DAI/Output_buff_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#27 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[1].DAI/Output_buff_reg[4] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[1].DAI/Output_buff_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#28 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[1].DAI/Output_buff_reg[5] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[1].DAI/Output_buff_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#29 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[1].DAI/Output_buff_reg[6] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[1].DAI/Output_buff_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#30 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[1].DAI/Output_buff_reg[7] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[1].DAI/Output_buff_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#31 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[1].DAI/Output_buff_reg[8] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[1].DAI/Output_buff_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#32 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[1].DAI/Output_buff_reg[9] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[1].DAI/Output_buff_reg[9]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#33 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[2].DAI/Output_buff_reg[0] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[2].DAI/Output_buff_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#34 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[2].DAI/Output_buff_reg[10] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[2].DAI/Output_buff_reg[10]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#35 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[2].DAI/Output_buff_reg[11] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[2].DAI/Output_buff_reg[11]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#36 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[2].DAI/Output_buff_reg[12] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[2].DAI/Output_buff_reg[12]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#37 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[2].DAI/Output_buff_reg[13] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[2].DAI/Output_buff_reg[13]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#38 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[2].DAI/Output_buff_reg[14] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[2].DAI/Output_buff_reg[14]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#39 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[2].DAI/Output_buff_reg[15] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[2].DAI/Output_buff_reg[15]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#40 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[2].DAI/Output_buff_reg[1] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[2].DAI/Output_buff_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#41 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[2].DAI/Output_buff_reg[2] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[2].DAI/Output_buff_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#42 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[2].DAI/Output_buff_reg[3] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[2].DAI/Output_buff_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#43 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[2].DAI/Output_buff_reg[4] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[2].DAI/Output_buff_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#44 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[2].DAI/Output_buff_reg[5] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[2].DAI/Output_buff_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#45 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[2].DAI/Output_buff_reg[6] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[2].DAI/Output_buff_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#46 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[2].DAI/Output_buff_reg[7] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[2].DAI/Output_buff_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#47 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[2].DAI/Output_buff_reg[8] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[2].DAI/Output_buff_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#48 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[2].DAI/Output_buff_reg[9] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[2].DAI/Output_buff_reg[9]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#49 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[3].DAI/Output_buff_reg[0] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[3].DAI/Output_buff_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#50 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[3].DAI/Output_buff_reg[10] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[3].DAI/Output_buff_reg[10]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#51 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[3].DAI/Output_buff_reg[11] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[3].DAI/Output_buff_reg[11]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#52 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[3].DAI/Output_buff_reg[12] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[3].DAI/Output_buff_reg[12]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#53 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[3].DAI/Output_buff_reg[13] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[3].DAI/Output_buff_reg[13]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#54 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[3].DAI/Output_buff_reg[14] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[3].DAI/Output_buff_reg[14]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#55 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[3].DAI/Output_buff_reg[15] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[3].DAI/Output_buff_reg[15]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#56 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[3].DAI/Output_buff_reg[1] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[3].DAI/Output_buff_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#57 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[3].DAI/Output_buff_reg[2] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[3].DAI/Output_buff_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#58 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[3].DAI/Output_buff_reg[3] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[3].DAI/Output_buff_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#59 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[3].DAI/Output_buff_reg[4] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[3].DAI/Output_buff_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#60 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[3].DAI/Output_buff_reg[5] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[3].DAI/Output_buff_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#61 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[3].DAI/Output_buff_reg[6] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[3].DAI/Output_buff_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#62 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[3].DAI/Output_buff_reg[7] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[3].DAI/Output_buff_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#63 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[3].DAI/Output_buff_reg[8] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[3].DAI/Output_buff_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#64 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[3].DAI/Output_buff_reg[9] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[3].DAI/Output_buff_reg[9]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#65 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[4].DAI/Output_buff_reg[0] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[4].DAI/Output_buff_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#66 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[4].DAI/Output_buff_reg[10] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[4].DAI/Output_buff_reg[10]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#67 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[4].DAI/Output_buff_reg[11] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[4].DAI/Output_buff_reg[11]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#68 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[4].DAI/Output_buff_reg[12] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[4].DAI/Output_buff_reg[12]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#69 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[4].DAI/Output_buff_reg[13] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[4].DAI/Output_buff_reg[13]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#70 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[4].DAI/Output_buff_reg[14] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[4].DAI/Output_buff_reg[14]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#71 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[4].DAI/Output_buff_reg[15] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[4].DAI/Output_buff_reg[15]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#72 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[4].DAI/Output_buff_reg[1] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[4].DAI/Output_buff_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#73 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[4].DAI/Output_buff_reg[2] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[4].DAI/Output_buff_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#74 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[4].DAI/Output_buff_reg[3] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[4].DAI/Output_buff_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#75 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[4].DAI/Output_buff_reg[4] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[4].DAI/Output_buff_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#76 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[4].DAI/Output_buff_reg[5] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[4].DAI/Output_buff_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#77 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[4].DAI/Output_buff_reg[6] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[4].DAI/Output_buff_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#78 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[4].DAI/Output_buff_reg[7] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[4].DAI/Output_buff_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#79 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[4].DAI/Output_buff_reg[8] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[4].DAI/Output_buff_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#80 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[4].DAI/Output_buff_reg[9] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[4].DAI/Output_buff_reg[9]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#81 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[5].DAI/Output_buff_reg[0] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[5].DAI/Output_buff_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#82 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[5].DAI/Output_buff_reg[10] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[5].DAI/Output_buff_reg[10]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#83 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[5].DAI/Output_buff_reg[11] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[5].DAI/Output_buff_reg[11]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#84 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[5].DAI/Output_buff_reg[12] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[5].DAI/Output_buff_reg[12]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#85 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[5].DAI/Output_buff_reg[13] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[5].DAI/Output_buff_reg[13]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#86 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[5].DAI/Output_buff_reg[14] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[5].DAI/Output_buff_reg[14]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#87 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[5].DAI/Output_buff_reg[15] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[5].DAI/Output_buff_reg[15]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#88 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[5].DAI/Output_buff_reg[1] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[5].DAI/Output_buff_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#89 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[5].DAI/Output_buff_reg[2] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[5].DAI/Output_buff_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#90 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[5].DAI/Output_buff_reg[3] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[5].DAI/Output_buff_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#91 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[5].DAI/Output_buff_reg[4] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[5].DAI/Output_buff_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#92 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[5].DAI/Output_buff_reg[5] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[5].DAI/Output_buff_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#93 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[5].DAI/Output_buff_reg[6] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[5].DAI/Output_buff_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#94 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[5].DAI/Output_buff_reg[7] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[5].DAI/Output_buff_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#95 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[5].DAI/Output_buff_reg[8] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[5].DAI/Output_buff_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#96 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/G_Conv[5].DAI/Output_buff_reg[9] cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/G_Conv[5].DAI/Output_buff_reg[9]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#97 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/Output_reg[0]/L7 (in Unit_Data_Path/Unit_Conv/Output_reg[0] macro) cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/Output_reg[0]/L7/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#98 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/Output_reg[1]/L7 (in Unit_Data_Path/Unit_Conv/Output_reg[1] macro) cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/Output_reg[1]/L7/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#99 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/Output_reg[2]/L7 (in Unit_Data_Path/Unit_Conv/Output_reg[2] macro) cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/Output_reg[2]/L7/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#100 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/Output_reg[3]/L7 (in Unit_Data_Path/Unit_Conv/Output_reg[3] macro) cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/Output_reg[3]/L7/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#101 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/Output_reg[4]/L7 (in Unit_Data_Path/Unit_Conv/Output_reg[4] macro) cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/Output_reg[4]/L7/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#102 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/Output_reg[5]/L7 (in Unit_Data_Path/Unit_Conv/Output_reg[5] macro) cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/Output_reg[5]/L7/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#103 Warning
+Non-clocked latch  
+The latch Unit_Data_Path/Unit_Conv/Output_reg[6]/L7 (in Unit_Data_Path/Unit_Conv/Output_reg[6] macro) cannot be properly analyzed as its control pin Unit_Data_Path/Unit_Conv/Output_reg[6]/L7/G is not reached by a timing clock
+Related violations: <none>
+
+

@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../../DA.srcs/sources_1/ip/SR_16bit/sim/SR_16bit.vhd" \
+
+nosort

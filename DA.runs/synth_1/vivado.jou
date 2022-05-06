@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1.1 (64-bit)
+# SW Build 2960000 on Wed Aug  5 22:57:20 MDT 2020
+# IP Build 2956692 on Thu Aug  6 01:41:30 MDT 2020
+# Start of session at: Fri May 21 00:52:02 2021
+# Process ID: 2028
+# Current directory: E:/OneDrive/Documents/Vivado/SIGNED/DA/DA.runs/synth_1
+# Command line: vivado.exe -log TOP_LVL_CUST.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source TOP_LVL_CUST.tcl
+# Log file: E:/OneDrive/Documents/Vivado/SIGNED/DA/DA.runs/synth_1/TOP_LVL_CUST.vds
+# Journal file: E:/OneDrive/Documents/Vivado/SIGNED/DA/DA.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source TOP_LVL_CUST.tcl -notrace

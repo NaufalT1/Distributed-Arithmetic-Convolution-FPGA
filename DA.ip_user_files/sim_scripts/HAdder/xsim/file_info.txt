@@ -1,0 +1,1 @@
+HAdder.vhd,vhdl,xil_defaultlib,../../../../DA.srcs/sources_1/ip/HAdder/sim/HAdder.vhd,
